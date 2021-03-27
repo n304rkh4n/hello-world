@@ -1,0 +1,22 @@
+name,school,type,description,component,focus,Casting time,rang_type,range_fts,target,duration1,duration,saving_throw,effect_sth,tr,effect_tr,perma,source
+Resistance:,Abjuration,bonus_sth,Subject gains +1 on saving throws.,V_S_M_DF,bag_focus,standard_action,touch,touch,creature_touched,1_minute,minutes, will_negates,harmless,yes,harmless,null,Core
+Acid Splash:,Conjuration,acid_dmg,Orb deals 1d3 acid damage.,V_S,null,standard_action,ranged,25 ft. + 5 ft./2 levels,ranged_touch,instant,one_round,none,null,no,null,null,Core
+Detect Magic:,Divination,detect_magic,Detects spells and magic items within 60 ft.,V_S,null,standard_action,ranged,60 ft,cone_shaped,concet,minutes,none,null,no,null,spell,Core
+Detect Poison:,Divination,detect_poison,Detects poison in one creature or small object.,V_S,null,standard_action,ranged,25 ft. + 5 ft./2 levels,single_creature,instant,instant,none,null,no,null,null,Core
+Read Magic:,Divination,decipher_self,Read scrolls and spellbooks.,V_S_F,bag_focus,standard_action,personal,self,you_self,10m_bylvl,minutes,none,null,no,null,spell,Core
+Daze:,Enchantment,mind_affect,Humanoid creature of 4 HD or less loses next action.,V_S_M,bag_focus,round_action,ranged,25 ft. + 5 ft./2 levels,single_human,instant,one_round,will_negates,negates,yes,harmless,null,Core
+Dancing Lights:,Evocation,light_magic,Creates torches or other lights.,V_S,null,standard_action,ranged,100 ft. + 10 ft./level,evok_light,1_minute,minutes,none,null,no,null,spell,Core
+Flare:,Evocation,light_affect,Dazzles one creature (–1 on attack rolls).,V,null,standard_action,ranged,25 ft. + 5 ft./2 levels,single_enemy,instant,minutes,fort_negates,negates,yes,harmless,null,Core
+Light:,Evocation,,Object shines like a torch.,,,,,,,,,,,,,null,Core
+Ray of Frost:,Evocation,,Ray deals 1d3 cold damage.,,,,,,,,,,,,,null,Core
+Ghost Sound:,Illusion,,Figment sounds.,,,,,,,,,,,,,null,Core
+Disrupt Undead:,Necromancy,,Deals 1d6 damage to one undead.,,,,,,,,,,,,,null,Core
+Touch of Fatigue:,Necromancy,,Touch attack fatigues target.,,,,,,,,,,,,,null,Core
+Mage Hand:,Transmutation,,5-pound telekinesis.,,,,,,,,,,,,,null,Core
+Mending:,Transmutation,,Makes minor repairs on an object.,,,,,,,,,,,,,null,Core
+Message:,Transmutation,,Whispered conversation at distance.,,,,,,,,,,,,,null,Core
+Open/Close:,Transmutation,,Opens or closes small or light things.,,,,,,,,,,,,,null,Core
+Arcane Mark:,Universal,,Inscribes a personal rune (visible or invisible).,,,,,,,,,,,,,null,Core
+Prestidigitation:,Universal,,Performs minor tricks.,,,,,,,,,,,,,null,Core
+Repair Minor Damage,Transmutation,,Heal a construct 1 damage.,,,,,,,,,,,,,null,CAr
+Repair Minor Damage:,Transmutation,,“Cures” 1 point of damage to a construct.,,,,,,,,,,,,,null,MH
